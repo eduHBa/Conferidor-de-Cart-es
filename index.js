@@ -123,7 +123,7 @@ const idInvalidCardCompanies = nestedInvalidCardsArray => {
 }
 
 idInvalidCardCompanies(batch)
-//console.log(batch[1][0])
+//console.log(batch[1][0]).
 //validadeCred(valid1);
 //findInvalidCards(batch)
 //console.log(batch)
