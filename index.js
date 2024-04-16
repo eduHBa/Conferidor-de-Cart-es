@@ -72,13 +72,12 @@ const findInvalidCards = nestedArrays => {
 
 
 const idInvalidCardCompanies = nestedInvalidCardsArray => {
-  console.log('nestedInvalidCardsArray ' + nestedInvalidCardsArray);
+  
   let companies = [];
-  console.log(companies);
+  
   
   for (let i = 0; i < nestedInvalidCardsArray.length; i++) {
-    console.log(i);
-    console.log('switch '+ nestedInvalidCardsArray[i][0]);
+    
     switch (nestedInvalidCardsArray[i][0]) {
       
       case 3:
@@ -117,13 +116,13 @@ const idInvalidCardCompanies = nestedInvalidCardsArray => {
       console.log('Company not found');
     }
   }
-  console.log(companies);
+  
   return companies;
-  console.log(companies);
+  
 }
 
 idInvalidCardCompanies(batch)
-//console.log(batch[1][0]).
+
 //validadeCred(valid1);
 //findInvalidCards(batch)
 //console.log(batch)
